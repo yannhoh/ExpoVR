@@ -216,8 +216,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-    practice! Select the button below"
+  m_Text: "<b>Schaue</b> auf den Balken unten\n und <b>dr\xFCcke den Abzug*</b> um
+    den Balken aufzuf\xFCllen.\r\n"
 --- !u!222 &84724689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -576,7 +576,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Look here!
+  m_Text: Schau hier!
 --- !u!222 &513837554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: I'm ready
+  m_Text: Bin bereit!
 --- !u!222 &653153516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1055,7 +1055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "<b>PRESS BACK*</b> TO GO BACK\nLet\u2019s practice!"
+  m_Text: "<b>dr\xFCcke Zur\xFCck*</b> wann immer du willst.\r\nProbiere es aus!"
 --- !u!222 &756518353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1522,30 +1522,14 @@ MonoBehaviour:
 
       then you''re on your own...'
   - m_Platform: 2
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...
-
-
-
-
-      (<b>HOLD CTRL</b> or the <b>LEFT
-
-      MOUSE BUTTON</b> to select the button)'
+    m_Text: "Nun weist du wie man mit Sachen interagiert!\r\nProbieren wir es noch
+      einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs..."
   - m_Platform: 7
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...'
+    m_Text: "Nun weist du wie man mit Sachen interagiert!\r\nProbieren wir es noch
+      einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs..."
   - m_Platform: 11
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...'
+    m_Text: "Nun weist du wie man interagiert!\r\nProbieren wir es noch einmal aus,
+      um Sicher zu gehen.\nDanach bist du auf dich selber gestellt..."
 --- !u!1 &867218951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: How to Use
+  m_Text: Steuerung
 --- !u!222 &1181094018
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1887,16 +1871,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Now you know how to interact with things!
-
-    Let''s try once more to be sure,
-
-    then you''re on your own...
-
-
-
-
-    (<b>HOLD FIRE</b> to select the button)'
+  m_Text: "Nun weist du wie man mit Sachen interagiert!\r\nProbieren wir es noch einmal
+    um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs...\n\n\n\n(<b>Dr\xFCcke
+    den Abzug</b> um den Balken aufzuf\xFCllen)"
 --- !u!222 &1211322432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2012,6 +1989,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1806677651}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_Reticle
+      value: 
+      objectReference: {fileID: 1806677642}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_VRInput
+      value: 
+      objectReference: {fileID: 1806677645}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_ShowDoubleTapWarnings
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
+      propertyPath: m_ShowSingleTapWarnings
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22420888, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2084,26 +2081,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1806677651}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_Reticle
-      value: 
-      objectReference: {fileID: 1806677642}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_VRInput
-      value: 
-      objectReference: {fileID: 1806677645}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_ShowDoubleTapWarnings
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11420560, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
-      propertyPath: m_ShowSingleTapWarnings
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9d8e2e1e1e6774bab6f142ed0c6f51, type: 3}
 --- !u!1 &1257493203
@@ -2169,23 +2146,11 @@ MonoBehaviour:
   m_TextComponent: {fileID: 756518352}
   m_PlatformTextPairs:
   - m_Platform: 11
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-      *<b>The GearVR BACK BUTTON</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n*den oberen kleinen Knopf mit dem Daumen"
   - m_Platform: 2
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-      *<b>The ESC key</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\n*den oberen kleinen Knopf mit dem Daumen"
   - m_Platform: 0
     m_Text: 'TO RETURN TO THE MAIN MENU
 
@@ -2197,15 +2162,8 @@ MonoBehaviour:
 
       *<b>The ESC key</b>'
   - m_Platform: 7
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-
-      *<b>The ESC key</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\n*den oberen kleinen Knopf mit dem Daumen"
 --- !u!1 &1271789582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Well Done!
+  m_Text: Gut gemacht!
 --- !u!222 &1271789585
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2725,14 +2683,14 @@ MonoBehaviour:
     m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
       practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
   - m_Platform: 2
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
+    m_Text: "\r<b>Schaue</b> auf den Balken unten \nund <b>dr\xFCcke den Abzug*</b>
+      um den Balken aufzuf\xFCllen.\n\n\n\n<b>*mit dem Zeigefinger</b>"
   - m_Platform: 7
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
+    m_Text: "<b>Schaue</b> auf den Balken unten und\n <b>dr\xFCcke den Abzug*</b>
+      um den Balken aufzuf\xFCllen.\n\n\n\n\n<b>*mit dem Zeigefinger</b>"
   - m_Platform: 11
-    m_Text: "<b>LOOK AT</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
+    m_Text: "\r<b>Schaue</b> auf den Balken unten \nund <b>dr\xFCcke den Abzug*</b>
+      um den Balken aufzuf\xFCllen.\n\n\n\n\n<b>*mit dem Zeigefinger</b>"
 --- !u!1 &1530708826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,7 +2886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Going Back
+  m_Text: "Zur\xFCck gehen"
 --- !u!222 &1672152659
 CanvasRenderer:
   m_ObjectHideFlags: 0

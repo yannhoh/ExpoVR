@@ -818,7 +818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: I'm ready
+  m_Text: Bin bereit!
 --- !u!222 &653153516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1522,30 +1522,15 @@ MonoBehaviour:
 
       then you''re on your own...'
   - m_Platform: 2
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...
-
-
-
-
-      (<b>HOLD CTRL</b> or the <b>LEFT
-
-      MOUSE BUTTON</b> to select the button)'
+    m_Text: "Gut gemacht!\r\n\r\nNun weist du wie man mit Sachen interagiert!\r\nProbieren
+      wir es noch einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs...\r\n\n\n\n\n(<b>HOLD
+      CTRL</b> or the <b>LEFT\nMOUSE BUTTON</b> to select the button)"
   - m_Platform: 7
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...'
+    m_Text: "Gut gemacht!\r\n\r\nNun weist du wie man mit Sachen interagiert!\r\nProbieren
+      wir es noch einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs...\r\n"
   - m_Platform: 11
-    m_Text: 'Now you know how to interact with things!
-
-      Let''s try once more to be sure,
-
-      then you''re on your own...'
+    m_Text: "Gut gemacht!\r\n\r\nNun weist du wie man mit Sachen interagiert!\r\nProbieren
+      wir es noch einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs...\r\n"
 --- !u!1 &867218951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,16 +1872,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Now you know how to interact with things!
-
-    Let''s try once more to be sure,
-
-    then you''re on your own...
-
-
-
-
-    (<b>HOLD FIRE</b> to select the button)'
+  m_Text: "Gut gemacht!\r\n\r\nNun weist du wie man mit Sachen interagiert!\r\nProbieren
+    wir es noch einmal um Sicher zu gehen,\r\ndanach bist du selbstst\xE4ndig unterwegs...\r\n"
 --- !u!222 &1211322432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2169,43 +2146,20 @@ MonoBehaviour:
   m_TextComponent: {fileID: 756518352}
   m_PlatformTextPairs:
   - m_Platform: 11
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-      *<b>The GearVR BACK BUTTON</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\r\n*den oberen kleinen Knopf mit dem Daumen\n\n*<b>The
+      GearVR BACK BUTTON</b>"
   - m_Platform: 2
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-      *<b>The ESC key</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\r\n*den oberen kleinen Knopf mit dem Daumen\n*<b>The
+      ESC key</b>"
   - m_Platform: 0
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-
-      *<b>The ESC key</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\r\n*den oberen kleinen Knopf mit dem Daumen\n\n\n*<b>The
+      ESC key</b>"
   - m_Platform: 7
-    m_Text: 'TO RETURN TO THE MAIN MENU
-
-      <b>PRESS BACK*</b> AT ANY TIME
-
-      Let''s try it!
-
-
-
-      *<b>The ESC key</b>'
+    m_Text: "Um ins Hauptmen\xFC zu gelangen\r\n<b>dr\xFCcke Zur\xFCck*</b> wann immer
+      du willst.\r\nProbiere es aus!\n\n\n\r\n*den oberen kleinen Knopf mit dem Daumen"
 --- !u!1 &1271789582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Well Done!
+  m_Text: Gut gemacht!
 --- !u!222 &1271789585
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2740,10 +2694,10 @@ MonoBehaviour:
       practice! Select the button below\n\n\n\n\n<b>*LEFT MOUSE BUTTON</b> OR <b>CTRL</b>"
   - m_Platform: 7
     m_Text: "<b>Schaue</b> auf den Balken unten und\n<b>dr\xFCcke den Abzug*</b> um
-      den Balken aufzuf\xFCllen.\r\n\n\n\n<b>*mit dem Zeigefinger</b>"
+      den Balken aufzuf\xFCllen.\r\n\n\n\n\n<b>*mit dem Zeigefinger</b>"
   - m_Platform: 11
-    m_Text: "<b>Visiere</b> INTERACTABLES, <b>HOLD FIRE*</b> TO SELECT\r\nLet\u2019s
-      practice! Select the button below\n\n\n\n\n<b>*The GearVR TOUCHPAD</b>"
+    m_Text: "<b>Schaue</b> auf den Balken unten und\n<b>dr\xFCcke den Abzug*</b> um
+      den Balken aufzuf\xFCllen.\r\n\n\n\n\n<b>*mit dem Zeigefinger</b>"
 --- !u!1 &1530708826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,7 +2893,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Going Back
+  m_Text: "Zur\xFCck gehen"
 --- !u!222 &1672152659
 CanvasRenderer:
   m_ObjectHideFlags: 0

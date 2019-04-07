@@ -502,7 +502,7 @@ MonoBehaviour:
   m_UIFader: {fileID: 855431571}
   m_Collider: {fileID: 1303343905}
   m_DisableOnBarFill: 0
-  m_DisappearOnBarFill: 0
+  m_DisappearOnBarFill: 1
 --- !u!1 &513837551
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &563393747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -635,9 +635,9 @@ CanvasGroup:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563393746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Alpha: 0
-  m_Interactable: 1
+  m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &563393749
@@ -648,7 +648,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563393746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -671,7 +671,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563393746}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
@@ -2100,7 +2100,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1257493204}
-  - component: {fileID: 1257493205}
   - component: {fileID: 1257493206}
   m_Layer: 0
   m_Name: BackGUI
@@ -2108,7 +2107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1257493204
 Transform:
   m_ObjectHideFlags: 0
@@ -2124,21 +2123,6 @@ Transform:
   m_Father: {fileID: 1591880578}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1257493205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257493203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36ec501a8570e3f469a983e6ba4c11aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FadeSpeed: 1
-  m_GroupsToFade:
-  - {fileID: 563393748}
 --- !u!114 &1257493206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2748,7 +2732,7 @@ MonoBehaviour:
   m_HowToUseSlider: {fileID: 1138161144}
   m_HowToUseConfirmFader: {fileID: 855431571}
   m_HowToUseConfirmSlider: {fileID: 453955610}
-  m_ReturnFader: {fileID: 1257493205}
+  m_ReturnFader: {fileID: 0}
 --- !u!1 &1544473573
 GameObject:
   m_ObjectHideFlags: 0

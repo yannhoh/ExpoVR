@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace VRStandardAssets.Utils
 {
@@ -18,7 +19,6 @@ namespace VRStandardAssets.Utils
 
 
         private bool m_Fading;                                  // Whether the UI elements are currently fading in or out.
-
 
         public bool Visible { get; private set; }               // Whether the UI elements are currently visible.
 
@@ -112,8 +112,25 @@ namespace VRStandardAssets.Utils
         {
             StopAllCoroutines ();
             yield return StartCoroutine (FadeOut ());
+
+        }
+// veränderti InteruptandFadeOut
+        public IEnumerator InteruptAndFadeOutOut ()
+        {
+            StopAllCoroutines ();
+            yield return StartCoroutine (FadeOut ());
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
         }
 
+
+        /*public void InteruptAndFadeOuttoMenu ()
+        {
+
+          Debug.Log("jetzt");
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            //StopAllCoroutines ();
+            //yield return StartCoroutine (FadeOut ());
+        }*/
 
         public IEnumerator CheckAndFadeOut()
         {

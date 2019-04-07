@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/--ExpoVR/TestSzenen/IntroReturnUseloesche.unity
+    guid: 3458550800a64064d8c00a5bb72b154a
   - enabled: 1
     path: Assets/--ExpoVR/Szenen/Intro.unity
     guid: 1c5fe2bf037ade84ca9ed9d97b0e1b97
-  - enabled: 0
+  - enabled: 1
     path: Assets/--ExpoVR/Szenen/MainMenu.unity
     guid: 3959fdef1e02d4d4fb01414c7de44414
   - enabled: 0

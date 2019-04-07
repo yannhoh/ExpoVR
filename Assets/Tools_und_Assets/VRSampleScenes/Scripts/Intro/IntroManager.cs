@@ -22,7 +22,7 @@ namespace VRStandardAssets.Intro
         private IEnumerator Start ()
         {
             m_Reticle.Show ();
-            
+
             m_Radial.Hide ();
 
             // In order, fade in the UI on how to use sliders, wait for the slider to be filled then fade out the UI.
@@ -33,7 +33,7 @@ namespace VRStandardAssets.Intro
             // In order, fade in the UI on confirming the use of sliders, wait for the slider to be filled, then fade out the UI.
             yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeIn());
             yield return StartCoroutine(m_HowToUseConfirmSlider.WaitForBarToFill());
-            yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeOut());
+            yield return StartCoroutine(m_HowToUseConfirmFader.InteruptAndFadeOutOut());
 
             // Fade in the final UI.
             yield return StartCoroutine (m_ReturnFader.InteruptAndFadeIn ());

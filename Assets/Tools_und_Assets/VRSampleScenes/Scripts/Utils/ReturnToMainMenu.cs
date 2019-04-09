@@ -26,11 +26,11 @@ namespace VRStandardAssets.Utils
 
         private void HandleCancel ()
         {
-            StartCoroutine (FadeToMenu ());
+            StartCoroutine (RestartGame ());
         }
 
 
-        private IEnumerator FadeToMenu ()
+        private IEnumerator RestartGame ()
         {
             // Wait for the screen to fade out.
             yield return StartCoroutine (m_VRCameraFade.BeginFadeOut (true));
@@ -40,3 +40,23 @@ namespace VRStandardAssets.Utils
         }
     }
 }
+
+
+
+/*
+private void HandleCancel ()
+{
+    StartCoroutine (FadeToMenu ());
+}
+
+
+private IEnumerator FadeToMenu ()
+{
+    // Wait for the screen to fade out.
+    yield return StartCoroutine (m_VRCameraFade.BeginFadeOut (true));
+
+    // Load the main menu by itself.
+    SceneManager.LoadScene(m_MenuSceneName, LoadSceneMode.Single);
+}
+}
+*/

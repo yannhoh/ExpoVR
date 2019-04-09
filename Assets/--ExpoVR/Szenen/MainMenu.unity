@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 53279802}
   - component: {fileID: 53279801}
   m_Layer: 0
-  m_Name: Beschreibung 1
+  m_Name: Beschreibung 1 Flyer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,12 +333,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53279800}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -8, y: -0.34, z: 0.07}
-  m_LocalScale: {x: 8, y: 2, z: 0.0001}
+  m_LocalScale: {x: 8, y: 2, z: 0.000100000056}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1371930614}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &71757993 stripped
 GameObject:
@@ -878,7 +878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 426494, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11461874, guid: 8425dec361a86f6419d316a88d6c87d9, type: 3}
       propertyPath: m_CameraFade
@@ -1286,7 +1286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 420702, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11417264, guid: 904806be95c6f7644bf0c8303943662e, type: 3}
       propertyPath: m_CameraFade
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 666056254}
   - component: {fileID: 666056253}
   m_Layer: 0
-  m_Name: Beschreibung 2
+  m_Name: Beschreibung 2 Maze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1539,12 +1539,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666056252}
-  m_LocalRotation: {x: 0, y: 0.953717, z: 0, w: 0.30070582}
+  m_LocalRotation: {x: -0, y: 0.953717, z: -0, w: 0.30070582}
   m_LocalPosition: {x: -3.87, y: -0.28, z: 6.86}
-  m_LocalScale: {x: 8, y: 2, z: 0.0001}
+  m_LocalScale: {x: 8, y: 2, z: 0.00010000007}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1371930614}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 145, z: 0}
 --- !u!1001 &704221360
 PrefabInstance:
@@ -2499,7 +2499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 464712, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11419562, guid: 19eafe53a7aadc644bc46200d92edfcb, type: 3}
       propertyPath: m_CameraFade
@@ -2894,7 +2894,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 764291725}
+  - {fileID: 53279804}
   - {fileID: 1207963379}
+  - {fileID: 666056256}
   - {fileID: 1947940831}
   - {fileID: 1942867347}
   m_Father: {fileID: 550080876}
@@ -3402,6 +3404,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 2100000, guid: 3264d49bcc9a5994baec39653f84c21e, type: 2}
+    - target: {fileID: 22257836, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451356, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
+      propertyPath: m_MenuSceneName
+      value: IntroReturnUseloesche
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 3}
 --- !u!114 &2126730145 stripped
